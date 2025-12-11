@@ -1,0 +1,11 @@
+export 'models/movie.dart';
+export 'bloc/movies_bloc.dart';
+export 'bloc/movies_event.dart';
+export 'bloc/movies_state.dart';
+export 'screens/home_screen.dart';
+export 'screens/watched_movies_screen.dart';
+export 'screens/to_watch_screen.dart';
+export 'screens/movie_detail_screen.dart';
+export 'screens/movie_form_screen.dart';
+export 'widgets/movie_tile.dart';
+export 'widgets/statistics_card.dart';

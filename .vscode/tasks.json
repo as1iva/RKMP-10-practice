@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "generate_icons",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"run",
+				"flutter_launcher_icons"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
