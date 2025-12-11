@@ -14,7 +14,7 @@ void main() async {
   await setupServiceLocator();
 
   Services.image.preloadImagePool().catchError((e) {
-    LoggerService.warning('Не удалось подготовить пул постеров для фильмов: $e');
+    LoggerService.warning('Не удалось подготовить пул постеров для фильмов...: $e');
   });
 
   runApp(const MoviesApp());
